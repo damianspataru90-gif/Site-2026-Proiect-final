@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site de prezentare a producției organizației EcoPack.">
+  <title>EcoPack | Prezentarea organizației</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="image/ecopack_logo.jpg">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="image/ecopack_logo.jpg" alt="Logo EcoPack" class="logo-img">
+        <span>EcoPack</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Navigare principală">
+        <ul>
+          <li><a href="index.html">Acasă</a></li>
+          <li><a href="#date">Date</a></li>
+          <li><a href="#tabel">Produse</a></li>
+          <li><a href="#media">Media</a></li>
+          <li><a href="#calculator">Calculator</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars"></i>
+
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+
+        <div class="card hero-content">
+          <span class="badge">Organizație de producție</span>
+          <h1>Produse pentru protejarea naturii</h1>
+          <p class="lead">
+            EcoPack produce ambalaje ecologice moderne și sustenabile.
+            Organizația noastră transformă materiale reciclabile în produse utile
+            pentru consumatori și companii.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#prezentare">Vezi prezentarea</a>
+            <a class="btn btn-secondary" href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="card hero-image">
+          <img src="image/ecopack_reprezentativ.jpg" alt="Imagine reprezentativă EcoPack" class="hero-img">
+        </div>
+
+      </div>
+    </section>
+
+    <section id="prezentare" class="prezentare-generala">
+      <div class="container">
+        <h2>Prezentare generală</h2>
+
+        <p class="intro">
+          EcoPack este o organizație care produce ambalaje ecologice pentru produse
+          alimentare și industriale. Scopul său este să reducă poluarea și să
+          promoveze folosirea materialelor reciclabile.
+        </p>
+
+        <p class="subtext">
+          Mai jos poți accesa rapid secțiunile importante ale paginii:
+        </p>
+
+        <div class="quick-links">
+          <a href="#date" class="quick-card"> Date despre organizație</a>
+          <a href="#tabel" class="quick-card"> Tabelul produselor</a>
+          <a href="#media" class="quick-card"> Resurse media</a>
+          <a href="#calculator" class="quick-card"> Calculator de producție</a>
+          <a href="#contact" class="quick-card"> Formular de contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="date" class="container section">
+      <h2>Date esențiale</h2>
+      <div class="grid-4">
+        <div class="stat">
+          <div class="stat-number">2026</div>
+          <p>Anul fondării</p>
+        </div>
+        <div class="stat">
+          <div class="stat-number">4</div>
+          <p>Secții principale</p>
+        </div>
+        <div class="stat">
+          <div class="stat-number">120</div>
+          <p>Comenzi lunare</p>
+        </div>
+        <div class="stat">
+          <div class="stat-number">95%</div>
+          <p>Material reciclat</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="tabel" class="container section card">
+      <h2>Tabelul produselor principale</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Produs</th>
+            <th>Material</th>
+            <th>Capacitate/zi</th>
+            <th>Destinație</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cutii pentru livrare</td>
+            <td>Carton reciclat</td>
+            <td>2500 buc.</td>
+            <td>Magazine online</td>
+          </tr>
+          <tr>
+            <td>Pahare biodegradabile</td>
+            <td>Fibră vegetală</td>
+            <td>4000 buc.</td>
+            <td>Cafenele</td>
+          </tr>
+          <tr>
+            <td>Etichete personalizate</td>
+            <td>Hârtie eco</td>
+            <td>6000 buc.</td>
+            <td>Industria alimentară</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="container section card">
+      <h2>Secțiuni detaliate</h2>
+
+      <div class="grid-3">
+        <div class="info-box">
+          <h3>Materii prime</h3>
+          <p>
+            Află din ce materiale sunt fabricate produsele noastre și cum sunt selectate.
+          </p>
+          <a href="pages/materii-prime.html" class="btn btn-primary">Deschide pagina</a>
+        </div>
+
+        <div class="info-box">
+          <h3>Proces tehnologic</h3>
+          <p>
+            Vezi etapele procesului de producție, de la proiectare până la livrare.
+          </p>
+          <a href="pages/proces-tehnologic.html" class="btn btn-primary">Deschide pagina</a>
+        </div>
+
+        <div class="info-box">
+          <h3>Controlul calității</h3>
+          <p>
+            Descoperă metodele prin care verificăm fiecare lot produs.
+          </p>
+          <a href="pages/control-calitate.html" class="btn btn-primary">Deschide pagina</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="container section card">
+      <h2>Galerie și resurse media</h2>
+
+      <div class="grid-3 gallery">
+        <img src="image/DSC07377.jpg" alt="Materii prime folosite în producție">
+        <img src="image/ecopak_final.jpg" alt="Etapele procesului de producție">
+        <img src="image/ecopak_image.jpg" alt="Controlul calității produselor">
+      </div>
+
+      <div class="video-box">
+        <iframe  width="560" height="315" src="https://www.youtube.com/embed/1f0DozbYdn0?si=sa230dw5KgvkmHBw"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section id="calculator" class="container section two-columns">
+      <div class="form-card">
+        <h2>Calculator de producție</h2>
+        <p>Introdu date pentru o estimare rapidă a valorii producției.</p>
+
+        <label for="units">Număr unități</label>
+        <input id="units" type="number" min="1" placeholder="Ex.: 1500">
+
+        <label for="price">Preț pe unitate (lei)</label>
+        <input id="price" type="number" min="0.1" step="0.1" placeholder="Ex.: 3.5">
+
+        <label for="days">Număr zile de producție</label>
+        <input id="days" type="number" min="1" placeholder="Ex.: 5">
+
+        <button id="calcBtn" class="btn btn-primary" type="button">Calculează</button>
+        <div id="calcResult" class="output">Rezultatul va apărea aici.</div>
+      </div>
+
+      <div class="form-card">
+        <h2>Citat motivațional</h2>
+        <p>Apasă butonul pentru a genera dinamic un mesaj despre producție și calitate.</p>
+
+        <button id="quoteBtn" class="btn btn-secondary" type="button">Generează text</button>
+        <div id="quoteOutput" class="output">Aici va apărea un citat.</div>
+
+        <h3 class="space-top">Animație simplă</h3>
+        <p>Cutia simbolizează produsul care se deplasează pe linia de ambalare.</p>
+        <div id="animatedBox" class="animated-box" aria-label="Animație cu o cutie în mișcare"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section card">
+      <h2>Formular de contact</h2>
+      <p>Acest formular demonstrează preluarea datelor de la utilizator și validarea pe partea client.</p>
+
+      <form id="contactForm">
+        <label for="name">Nume</label>
+        <input id="name" type="text" placeholder="Scrie numele tău">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="exemplu@email.com">
+
+        <label for="department">Departament</label>
+        <select id="department">
+          <option value="">Alege un departament</option>
+          <option value="Producție">Producție</option>
+          <option value="Calitate">Calitate</option>
+          <option value="Logistică">Logistică</option>
+          <option value="Vânzări">Vânzări</option>
+        </select>
+
+        <label for="message">Mesaj</label>
+        <textarea id="message" placeholder="Scrie aici mesajul tău"></textarea>
+
+        <button class="btn btn-primary" type="submit">Trimite</button>
+      </form>
+
+      <div id="formOutput" class="notice">Răspunsul formularului va apărea aici.</div>
+    </section>
+  </main>
+  </footer>
+<section id="parteneri" class="eco-parteneri">
+   <section id="parteneri" class="eco-parteneri">
+      <div class="container">
+       <h2 style="text-align:center;">Magazine Partenere EcoPack</h2>
+
+<div class="partners-container">
+
+  <div class="partner-card">
+    <img src="image/Без названия.png" alt="Kaufland">
+    <h3>Kaufland</h3>
+    <p>Produse eco și ambalaje sustenabile.</p>
+    <a href="https://www.kaufland.md/" target="_blank" class="partner-btn">Vizitează</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="image/Lidl-Logo.svg.webp" alt="Lidl">
+    <h3>Lidl</h3>
+    <p>Produse bio și reciclabile.</p>
+    <a href="https://www.lidl.ro/" target="_blank" class="partner-btn">Vizitează</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="image/Без названия (1).png" alt="Metro">
+    <h3>Metro</h3>
+    <p>Distribuitor pentru afaceri.</p>
+    <a href="https://www.metro.md/magazinonline" target="_blank" class="partner-btn">Vizitează</a>
+  </div>
+
+  <div class="partner-card">
+    <img src="image/Без названия (2).png" alt="Eco Shop">
+    <h3>Eco Shop</h3>
+    <p>Magazin produse biodegradabile.</p>
+    <a href="https://biodegradabil.md/" target="_blank" class="partner-btn">Vizitează</a>
+  </div>
+
+</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+       <h3>EcoPack <small>&copy;</small></h3>
+        <p>Proiect realizat în HTML, CSS și JavaScript.</p>
+      </section>
+
+      <section>
+        <h3>Pagini</h3>
+        <p><a href="index.html">Acasă</a></p>
+        <p><a href="pages/materii-prime.html">Materii prime</a></p>
+        <p><a href="pages/proces-tehnologic.html">Proces tehnologic</a></p>
+        <p><a href="pages/control-calitate.html">Controlul calității</a></p>
+      </section>
+
+      <section>
+        <h3>Navigare rapidă</h3>
+        <p><a href="#prezentare">Prezentare</a></p>
+        <p><a href="#contact">Contact</a></p>
+        <p><a href="#parteneri">Parteneri</a></p>
+      </section>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+<section class="contact">
+  <h2>Contact EcoPack</h2>
+
+  <div class="contact-container">
+
+    <div class="contact-card">
+      <h3> Adresă</h3>
+      <p>Strada Verde nr. 25</p>
+      <p>Chișinău, Moldova</p>
+    </div>
+
+    <div class="contact-card">
+      <h3> Telefon</h3>
+      <p>+373 600 123 45</p>
+      <p>+373 789 456 12</p>
+    </div>
+
+    <div class="contact-card">
+      <h3> Email</h3>
+      <p>contact@ecopack.md</p>
+      <p>support@ecopack.md</p>
+    </div>
+
+    <div class="contact-card">
+      <h3> Social Media</h3>
+      <p>Facebook: EcoPack</p>
+      <p>Instagram: @ecopack</p>
+    </div>
+
+  </div>
+</section>
+</body>
+</html>
